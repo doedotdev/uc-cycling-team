@@ -33,11 +33,11 @@ google.charts.load('current', {'packages':['line', 'corechart']});
       data.addColumn('number', "Power at LT");
 
       data.addRows([
-        [new Date(2014, 0),  115,  170],
-        [new Date(2014, 8),   120,  185],
-        [new Date(2015, 1),   128,   195],
-        [new Date(2015, 6),  140, 210],
-        [new Date(2016, 2),  150, 225]
+        [new Date(2014, 0),  160,  170],
+        [new Date(2014, 8),   161,  185],
+        [new Date(2015, 1),   163,   195],
+        [new Date(2015, 6),  166, 210],
+        [new Date(2016, 2),  168, 225]
       ]);
 
       var materialOptions = {
